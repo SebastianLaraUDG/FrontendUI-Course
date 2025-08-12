@@ -13,201 +13,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2fad9f2-e0d0-4ebe-bd24-08ff64f2fdb7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Source/FrontendUI/Private/FrontendGameplayTags.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/FrontendUI/Public/FrontendGameplayTags.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.FrontendUI/.idea/encodings.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Config/DefaultGame.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.FrontendUI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FrontendUI/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config/DefaultEditor.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config/DefaultEngine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEngine.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config/DefaultGame.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config/DefaultInput.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultInput.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/MouseKeyboard/0_Key_Dark.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/MouseKeyboard/10_Key_Dark.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/MouseKeyboard/11_Key_Dark.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/MouseKeyboard/12_Key_Dark.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/MouseKeyboard/1_Key_Dark.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/MouseKeyboard/2_Key_Dark.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/MouseKeyboard/3_Key_Dark.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/MouseKeyboard/4_Key_Dark.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/MouseKeyboard/5_Key_Dark.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/MouseKeyboard/6_Key_Dark.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/MouseKeyboard/7_Key_Dark.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/MouseKeyboard/8_Key_Dark.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/MouseKeyboard/9_Key_Dark.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/MouseKeyboard/A_Key_Dark.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/MouseKeyboard/Alt_Key_Dark.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/MouseKeyboard/Arrow_Down_Key_Dark.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/MouseKeyboard/Arrow_Left_Key_Dark.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/MouseKeyboard/Arrow_Right_Key_Dark.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/MouseKeyboard/Arrow_Up_Key_Dark.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/MouseKeyboard/Asterisk_Key_Dark.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/MouseKeyboard/B_Key_Dark.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/MouseKeyboard/Backspace_Alt_Key_Dark.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/MouseKeyboard/Backspace_Key_Dark.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/MouseKeyboard/Bracket_Left_Key_Dark.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/MouseKeyboard/Bracket_Right_Key_Dark.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/MouseKeyboard/C_Key_Dark.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/MouseKeyboard/Caps_Lock_Key_Dark.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/MouseKeyboard/Command_Key_Dark.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/MouseKeyboard/Ctrl_Key_Dark.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/MouseKeyboard/D_Key_Dark.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/MouseKeyboard/Del_Key_Dark.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/MouseKeyboard/E_Key_Dark.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/MouseKeyboard/End_Key_Dark.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/MouseKeyboard/Enter_Alt_Key_Dark.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/MouseKeyboard/Enter_Key_Dark.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/MouseKeyboard/Enter_Tall_Key_Dark.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/MouseKeyboard/Esc_Key_Dark.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/MouseKeyboard/F10_Key_Dark.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/MouseKeyboard/F11_Key_Dark.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/MouseKeyboard/F12_Key_Dark.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/MouseKeyboard/F1_Key_Dark.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/MouseKeyboard/F2_Key_Dark.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/MouseKeyboard/F3_Key_Dark.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/MouseKeyboard/F4_Key_Dark.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/MouseKeyboard/F5_Key_Dark.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/MouseKeyboard/F6_Key_Dark.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/MouseKeyboard/F7_Key_Dark.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/MouseKeyboard/F8_Key_Dark.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/MouseKeyboard/F9_Key_Dark.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/MouseKeyboard/F_Key_Dark.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/MouseKeyboard/G_Key_Dark.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/MouseKeyboard/H_Key_Dark.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/MouseKeyboard/Home_Key_Dark.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/MouseKeyboard/I_Key_Dark.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/MouseKeyboard/Insert_Key_Dark.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/MouseKeyboard/J_Key_Dark.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/MouseKeyboard/K_Key_Dark.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/MouseKeyboard/L_Key_Dark.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/MouseKeyboard/M_Key_Dark.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/MouseKeyboard/Mark_Left_Key_Dark.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/MouseKeyboard/Mark_Right_Key_Dark.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/MouseKeyboard/Minus_Key_Dark.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/MouseKeyboard/Mouse_Left_Key_Dark.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/MouseKeyboard/Mouse_Middle_Key_Dark.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/MouseKeyboard/Mouse_Right_Key_Dark.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/MouseKeyboard/Mouse_Simple_Key_Dark.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/MouseKeyboard/N_Key_Dark.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/MouseKeyboard/Num_Lock_Key_Dark.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/MouseKeyboard/O_Key_Dark.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/MouseKeyboard/P_Key_Dark.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/MouseKeyboard/Page_Down_Key_Dark.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/MouseKeyboard/Page_Up_Key_Dark.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/MouseKeyboard/Plus_Key_Dark.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/MouseKeyboard/Plus_Tall_Key_Dark.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/MouseKeyboard/Print_Screen_Key_Dark.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/MouseKeyboard/Q_Key_Dark.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/MouseKeyboard/Question_Key_Dark.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/MouseKeyboard/Quote_Key_Dark.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/MouseKeyboard/R_Key_Dark.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/MouseKeyboard/S_Key_Dark.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/MouseKeyboard/Semicolon_Key_Dark.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/MouseKeyboard/Shift_Alt_Key_Dark.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/MouseKeyboard/Shift_Key_Dark.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/MouseKeyboard/Slash_Key_Dark.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/MouseKeyboard/Space_Key_Dark.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/MouseKeyboard/T_Key_Dark.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/MouseKeyboard/Tab_Key_Dark.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/MouseKeyboard/Tilda_Key_Dark.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/MouseKeyboard/U_Key_Dark.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/MouseKeyboard/V_Key_Dark.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/MouseKeyboard/W_Key_Dark.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/MouseKeyboard/Win_Key_Dark.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/MouseKeyboard/X_Key_Dark.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/MouseKeyboard/Y_Key_Dark.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/MouseKeyboard/Z_Key_Dark.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/PS4/PS4_Circle.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/PS4/PS4_Cross.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/PS4/PS4_Diagram.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/PS4/PS4_Diagram_Simple.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/PS4/PS4_Dpad.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/PS4/PS4_Dpad_Down.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/PS4/PS4_Dpad_Left.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/PS4/PS4_Dpad_Right.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/PS4/PS4_Dpad_Up.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/PS4/PS4_L1.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/PS4/PS4_L2.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/PS4/PS4_Left_Stick.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/PS4/PS4_Left_Stick_Click.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/PS4/PS4_Options.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/PS4/PS4_R1.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/PS4/PS4_R2.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/PS4/PS4_Right_Stick.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/PS4/PS4_Right_Stick_Click.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/PS4/PS4_Share.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/PS4/PS4_Square.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/PS4/PS4_Touch_Pad.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/PS4/PS4_Triangle.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/XBox/XboxSeriesX_A.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/XBox/XboxSeriesX_B.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/XBox/XboxSeriesX_Diagram.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/XBox/XboxSeriesX_Diagram_Simple.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/XBox/XboxSeriesX_Dpad.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/XBox/XboxSeriesX_Dpad_Down.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/XBox/XboxSeriesX_Dpad_Left.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/XBox/XboxSeriesX_Dpad_Right.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/XBox/XboxSeriesX_Dpad_Up.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/XBox/XboxSeriesX_LB.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/XBox/XboxSeriesX_LT.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/XBox/XboxSeriesX_Left_Stick.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/XBox/XboxSeriesX_Left_Stick_Click.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/XBox/XboxSeriesX_Menu.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/XBox/XboxSeriesX_RB.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/XBox/XboxSeriesX_RT.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/XBox/XboxSeriesX_Right_Stick.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/XBox/XboxSeriesX_Right_Stick_Click.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/XBox/XboxSeriesX_Share.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/XBox/XboxSeriesX_View.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/XBox/XboxSeriesX_X.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/ControllerIcons/XBox/XboxSeriesX_Y.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/Fonts/Cinzel/Cinzel-Black.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/Fonts/Cinzel/Cinzel-Bold.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/Fonts/Cinzel/Cinzel-Regular.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/Fonts/Cinzel/Cinzel.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/Fonts/Din/DIN-Black.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/Fonts/Din/DIN-Bold.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/Fonts/Din/DIN-Medium.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/Fonts/Din/DIN.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/Fonts/Din/DIN_Font.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/LevelVisuals/Characters/Mannequin_UE4/Animations/Jog_Fwd.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/LevelVisuals/Characters/Mannequin_UE4/Materials/Layers/ML_Latex_Black.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/LevelVisuals/Characters/Mannequin_UE4/Materials/Layers/ML_ShinyPlastic_Beige.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/LevelVisuals/Characters/Mannequin_UE4/Materials/Layers/ML_ShinyPlastic_Beige_Logo.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/LevelVisuals/Characters/Mannequin_UE4/Materials/Layers/ML_SoftMetal.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/LevelVisuals/Characters/Mannequin_UE4/Materials/M_MannequinUE4_Body.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/LevelVisuals/Characters/Mannequin_UE4/Materials/M_MannequinUE4_ChestLogo.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/LevelVisuals/Characters/Mannequin_UE4/Meshes/SK_Mannequin.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/LevelVisuals/Characters/Mannequin_UE4/Meshes/SK_Mannequin_PhysicsAsset.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/LevelVisuals/Characters/Mannequin_UE4/Meshes/SK_Mannequin_Skeleton.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/LevelVisuals/Characters/Mannequin_UE4/Rigs/IK_UE4_Mannequin.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/LevelVisuals/Characters/Mannequin_UE4/Rigs/RTG_UE4Manny_UE5Manny.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/LevelVisuals/Characters/Mannequin_UE4/Rigs/RTG_UE5Manny_UE4Manny.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/LevelVisuals/Characters/Mannequin_UE4/Textures/T_ML_Aluminum01.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/LevelVisuals/Characters/Mannequin_UE4/Textures/T_ML_Aluminum01_N.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/LevelVisuals/Characters/Mannequin_UE4/Textures/T_ML_Rubber_Blue_01_D.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/LevelVisuals/Characters/Mannequin_UE4/Textures/T_ML_Rubber_Blue_01_N.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/LevelVisuals/Characters/Mannequin_UE4/Textures/T_UE4_Mannequin_MAT_MASKA.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/LevelVisuals/Characters/Mannequin_UE4/Textures/T_UE4_Mannequin__normals.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/LevelVisuals/Characters/Mannequin_UE4/Textures/T_UELogo_Mask.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/LevelVisuals/Characters/Mannequin_UE4/Textures/T_UELogo_N_TGA.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/LevelVisuals/Characters/Mannequins/Animations/ABP_Manny.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/LevelVisuals/Characters/Mannequins/Animations/ABP_Quinn.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/LevelVisuals/Characters/Mannequins/Animations/Manny/BS_MM_WalkRun.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/LevelVisuals/Characters/Mannequins/Animations/Manny/MM_Fall_Loop.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/LevelVisuals/Characters/Mannequins/Animations/Manny/MM_Jump.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/LevelVisuals/Characters/Mannequins/Animations/Manny/MM_Land.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/LevelVisuals/Characters/Mannequins/Animations/Manny/MM_Run_Fwd.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/LevelVisuals/Characters/Mannequins/Animations/Manny/MM_T_Pose.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/LevelVisuals/Characters/Mannequins/Animations/Manny/MM_Walk_Fwd.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/LevelVisuals/Characters/Mannequins/Animations/Manny/MM_Walk_InPlace.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/LevelVisuals/Characters/Mannequins/Animations/Quinn/BS_MF_Unarmed_WalkRun.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/LevelVisuals/Characters/Mannequins/Animations/Quinn/MF_Idle.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/LevelVisuals/Characters/Mannequins/Animations/Quinn/MF_Run_Fwd.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/LevelVisuals/Characters/Mannequins/Animations/Quinn/MF_Walk_Fwd.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Maps/Frontend_TestMap.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Maps/Frontend_TestMap.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/FrontendUI/Private/Controllers/FrontendPlayerController.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/FrontendUI/Private/Controllers/FrontendPlayerController.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/FrontendUI/Public/Controllers/FrontendPlayerController.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/FrontendUI/Public/Controllers/FrontendPlayerController.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/FrontendUI/FrontendUI.Build.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/FrontendUI/FrontendUI.Build.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -218,7 +26,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../../../../../Program Files/Epic Games/UE_5.6/Engine/Source/Runtime/Core/Public/Misc/AutomationTest.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../../Program Files/Epic Games/UE_5.6/Engine/Source/Runtime/Engine/Classes/GameFramework/PlayerController.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../../Program Files/Epic Games/UE_5.6/Engine/Source/Runtime/GameplayTags/GameplayTags.Build.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../../Program Files/Epic Games/UE_5.6/Engine/Source/Runtime/GameplayTags/Private/Tests/GameplayTagQueryTests.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../../Program Files/Epic Games/UE_5.6/Engine/Source/Runtime/GameplayTags/Public/NativeGameplayTags.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/FrontendUI/Private/Controllers/FrontendPlayerController.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/FrontendUI/Public/Controllers/FrontendPlayerController.h" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -363,7 +175,7 @@
       <option name="presentableId" value="Default" />
       <updated>1754684823206</updated>
       <workItem from="1754684824852" duration="4770000" />
-      <workItem from="1754951265123" duration="5567000" />
+      <workItem from="1754951265123" duration="6310000" />
     </task>
     <servers />
   </component>
