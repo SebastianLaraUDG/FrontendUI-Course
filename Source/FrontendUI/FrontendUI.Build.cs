@@ -11,7 +11,7 @@ public class FrontendUI : ModuleRules
 		PublicDependencyModuleNames.AddRange(new string[]
 		{
 			"Core", "CoreUObject", "Engine", "InputCore", "EnhancedInput",
-			"GameplayTags"
+			"GameplayTags", "UMG"
 		});
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });
