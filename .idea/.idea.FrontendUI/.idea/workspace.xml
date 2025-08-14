@@ -13,10 +13,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2fad9f2-e0d0-4ebe-bd24-08ff64f2fdb7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Source/FrontendUI/Private/AsyncActions/AsyncAction_PushSoftWidget.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/FrontendUI/Public/AsyncActions/AsyncAction_PushSoftWidget.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.FrontendUI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FrontendUI/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/UI/BP_FrontendController.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/BP_FrontendController.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/FrontendUI/Private/AsyncActions/AsyncAction_PushSoftWidget.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/FrontendUI/Private/AsyncActions/AsyncAction_PushSoftWidget.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/FrontendUI/Public/AsyncActions/AsyncAction_PushSoftWidget.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/FrontendUI/Public/AsyncActions/AsyncAction_PushSoftWidget.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,11 +36,14 @@
     <setting file="file://$PROJECT_DIR$/../../../../../Program Files/Epic Games/UE_5.6/Engine/Source/Runtime/CoreUObject/Private/UObject/UObjectHash.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../../Program Files/Epic Games/UE_5.6/Engine/Source/Runtime/CoreUObject/Public/UObject/Class.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../../Program Files/Epic Games/UE_5.6/Engine/Source/Runtime/CoreUObject/Public/UObject/Object.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../../Program Files/Epic Games/UE_5.6/Engine/Source/Runtime/CoreUObject/Public/UObject/SoftObjectPtr.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../../Program Files/Epic Games/UE_5.6/Engine/Source/Runtime/CoreUObject/Public/UObject/UObjectBase.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../../Program Files/Epic Games/UE_5.6/Engine/Source/Runtime/CoreUObject/Public/UObject/UObjectBaseUtility.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../../Program Files/Epic Games/UE_5.6/Engine/Source/Runtime/Engine/Classes/Engine/Engine.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../../Program Files/Epic Games/UE_5.6/Engine/Source/Runtime/Engine/Classes/GameFramework/PlayerController.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../../Program Files/Epic Games/UE_5.6/Engine/Source/Runtime/Engine/Classes/Kismet/BlueprintAsyncActionBase.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../../Program Files/Epic Games/UE_5.6/Engine/Source/Runtime/Engine/Private/AssetManager.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../../Program Files/Epic Games/UE_5.6/Engine/Source/Runtime/Engine/Private/Kismet/BlueprintAsyncActionBase.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../../Program Files/Epic Games/UE_5.6/Engine/Source/Runtime/Engine/Private/Subsystems/WorldSubsystem.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../../Program Files/Epic Games/UE_5.6/Engine/Source/Runtime/GameplayTags/Classes/GameplayTagContainer.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../../Program Files/Epic Games/UE_5.6/Engine/Source/Runtime/GameplayTags/GameplayTags.Build.cs" root0="FORCE_HIGHLIGHTING" />
@@ -194,7 +196,7 @@
       <workItem from="1754684824852" duration="4770000" />
       <workItem from="1754951265123" duration="6493000" />
       <workItem from="1755012699295" duration="16312000" />
-      <workItem from="1755124722285" duration="4452000" />
+      <workItem from="1755124722285" duration="10354000" />
     </task>
     <servers />
   </component>

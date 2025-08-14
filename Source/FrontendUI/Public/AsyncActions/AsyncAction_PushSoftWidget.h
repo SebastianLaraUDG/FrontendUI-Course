@@ -20,6 +20,7 @@ class FRONTENDUI_API UAsyncAction_PushSoftWidget : public UBlueprintAsyncActionB
 	GENERATED_BODY()
 
 public:
+	
 	UFUNCTION(BlueprintCallable,
 		meta = (WorldContext = "WorldContextObject", HidePin = "WorldContextObject", BlueprintInternalUseOnly = "true",
 			DisplayName = "Push Soft Widget To Widget Stack"))
@@ -29,10 +30,21 @@ public:
 	                                                   UPARAM(meta = (Categories = "Frontend.WidgetStack"))
 	                                                   FGameplayTag InWidgetStackTag,
 	                                                   bool bFocusOnNewlyPushedWidget = true);
-
+	//~ Begin UBlueprintAsyncActionBase Interface
+	
+	virtual void Activate() override;
+	//~ End UBlueprintAsyncActionBase Interface
+	
 	UPROPERTY(BlueprintAssignable)
 	FOnPushSoftWidget OnWidgetCreatedBeforePush;
 
 	UPROPERTY(BlueprintAssignable)
 	FOnPushSoftWidget AfterPush;
+
+private:
+	TWeakObjectPtr<UWorld> CachedOwningWorld;
+	TWeakObjectPtr<APlayerController> CachedOwningPlayerController;
+	TSoftClassPtr<UWidget_ActivatableBase> CachedSoftWidgetClass;
+	FGameplayTag CachedWidgetStackTag;
+	bool bCachedFocusOnNewlyPushedWidget = false;
 };

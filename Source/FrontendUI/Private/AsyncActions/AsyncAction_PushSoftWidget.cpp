@@ -2,6 +2,8 @@
 
 
 #include "AsyncActions/AsyncAction_PushSoftWidget.h"
+#include "Widgets/Widget_ActivatableBase.h"
+#include "Subsystems/FrontendUISubsystem.h"
 
 UAsyncAction_PushSoftWidget* UAsyncAction_PushSoftWidget::PushSoftWidget(const UObject* WorldContextObject,
                                                                          APlayerController* OwningPlayerController,
@@ -21,9 +23,45 @@ UAsyncAction_PushSoftWidget* UAsyncAction_PushSoftWidget::PushSoftWidget(const U
 		                                                             EGetWorldErrorMode::LogAndReturnNull))
 		{
 			UAsyncAction_PushSoftWidget* Node = NewObject<UAsyncAction_PushSoftWidget>();
+			Node->CachedOwningWorld = World;
+			Node->CachedOwningPlayerController = OwningPlayerController;
+			Node->CachedSoftWidgetClass = InSoftWidgetClass;
+			Node->CachedWidgetStackTag = InWidgetStackTag;
+			Node->bCachedFocusOnNewlyPushedWidget = bFocusOnNewlyPushedWidget;
+			
 			Node->RegisterWithGameInstance(World);
 			return Node;
 		}
 	}
 	return nullptr;
+}
+
+void UAsyncAction_PushSoftWidget::Activate()
+{
+	UFrontendUISubsystem* FrontendUISubsystem = UFrontendUISubsystem::Get(CachedOwningWorld.Get());
+	FrontendUISubsystem->PushSoftWidgetToStackAsync(CachedWidgetStackTag,CachedSoftWidgetClass,
+	[this](EAsyncPushWidgetState InPushState, UWidget_ActivatableBase* PushedWidget)
+	{
+		switch (InPushState)
+		{
+		case EAsyncPushWidgetState::AfterPush:
+			PushedWidget->SetOwningPlayer(CachedOwningPlayerController.Get());
+			OnWidgetCreatedBeforePush.Broadcast(PushedWidget);
+			
+			break;
+		case EAsyncPushWidgetState::OnCreatedBeforePush:
+			AfterPush.Broadcast(PushedWidget);
+			if (bCachedFocusOnNewlyPushedWidget)
+			{
+				if (UWidget* WidgetToFocus = PushedWidget->GetDesiredFocusTarget())
+				{
+					WidgetToFocus->SetFocus();
+				}
+			}
+			SetReadyToDestroy();
+			break;
+			
+		}
+	}
+	);
 }
