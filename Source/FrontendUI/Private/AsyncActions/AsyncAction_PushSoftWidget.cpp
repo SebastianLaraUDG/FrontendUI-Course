@@ -9,9 +9,7 @@ UAsyncAction_PushSoftWidget* UAsyncAction_PushSoftWidget::PushSoftWidget(const U
                                                                          APlayerController* OwningPlayerController,
                                                                          TSoftClassPtr<UWidget_ActivatableBase>
                                                                          InSoftWidgetClass,
-                                                                         UPARAM(
-	                                                                         meta = (Categories = "Frontend.WidgetStack"
-	                                                                         ))
+                                                                         UPARAM(meta = (Categories = "Frontend.WidgetStack"))
                                                                          FGameplayTag InWidgetStackTag,
                                                                          bool bFocusOnNewlyPushedWidget)
 {
@@ -19,8 +17,7 @@ UAsyncAction_PushSoftWidget* UAsyncAction_PushSoftWidget::PushSoftWidget(const U
 
 	if (GEngine)
 	{
-		if (UWorld* const World = GEngine->GetWorldFromContextObject(WorldContextObject,
-		                                                             EGetWorldErrorMode::LogAndReturnNull))
+		if (UWorld* const World = GEngine->GetWorldFromContextObject(WorldContextObject, EGetWorldErrorMode::LogAndReturnNull))
 		{
 			UAsyncAction_PushSoftWidget* Node = NewObject<UAsyncAction_PushSoftWidget>();
 			Node->CachedOwningWorld = World;
