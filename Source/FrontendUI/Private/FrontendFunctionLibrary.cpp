@@ -11,5 +11,5 @@ TSoftClassPtr<UWidget_ActivatableBase> UFrontendFunctionLibrary::GetFrontendSoft
 	auto FrontendDeveloperSettings = GetDefault<UFrontendDeveloperSettings>();
 	checkf(FrontendDeveloperSettings->FrontendWidgetMap.Contains(InWidgetTag),
 	       TEXT("Could not find the corresponding widget under the tag %s"), *InWidgetTag.ToString())
-	return  FrontendDeveloperSettings->FrontendWidgetMap.FindRef(InWidgetTag);
+	return FrontendDeveloperSettings->FrontendWidgetMap.FindRef(InWidgetTag);
 }
