@@ -3,6 +3,7 @@
 
 #include "Widgets/Components/FrontendCommonButtonBase.h"
 #include "CommonTextBlock.h"
+#include "Subsystems/FrontendUISubsystem.h"
 
 void UFrontendCommonButtonBase::NativePreConstruct()
 {
@@ -18,6 +19,24 @@ void UFrontendCommonButtonBase::NativeOnCurrentTextStyleChanged()
 	if (CommonTextBlock_ButtonText && GetCurrentTextStyleClass())
 	{
 		CommonTextBlock_ButtonText->SetStyle(GetCurrentTextStyleClass());
+	}
+}
+
+void UFrontendCommonButtonBase::NativeOnHovered()
+{
+	Super::NativeOnHovered();
+	if (!ButtonDescriptionText.IsEmpty())
+	{
+		UFrontendUISubsystem::Get(this)->OnButtonDescriptionTextUpdate.Broadcast(this, ButtonDescriptionText);
+	}
+}
+
+void UFrontendCommonButtonBase::NativeOnUnhovered()
+{
+	Super::NativeOnUnhovered();
+	if (!ButtonDescriptionText.IsEmpty())
+	{
+		UFrontendUISubsystem::Get(this)->OnButtonDescriptionTextUpdate.Broadcast(this, FText::GetEmpty());
 	}
 }
 
