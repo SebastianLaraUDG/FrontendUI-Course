@@ -18,6 +18,10 @@ protected:
 	// ~Begin UUserWidget interface.
 	virtual void NativePreConstruct() override;
 	// ~End UUserWidget interface.
+	
+	// ~Begin UCommonButtonBase interface.
+	virtual void NativeOnCurrentTextStyleChanged() override;
+	// ~End UCommonButtonBase interface.
 
 public:
     	UFUNCTION(BlueprintCallable)

@@ -11,6 +11,16 @@ void UFrontendCommonButtonBase::NativePreConstruct()
 	SetButtonText(ButtonDisplayText);
 }
 
+void UFrontendCommonButtonBase::NativeOnCurrentTextStyleChanged()
+{
+	Super::NativeOnCurrentTextStyleChanged();
+	
+	if (CommonTextBlock_ButtonText)
+	{
+		CommonTextBlock_ButtonText->SetStyle(GetCurrentTextStyleClass());
+	}
+}
+
 void UFrontendCommonButtonBase::SetButtonText(FText InText)
 {
 	if (CommonTextBlock_ButtonText)
